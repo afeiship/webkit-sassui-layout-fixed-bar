@@ -1,0 +1,21 @@
+/*webkit-sassui-layout-fixed-bar Start*/
+@mixin webkit-sassui-layout-fixed-bar($inHeight: 50px, $inGap: 10px){
+  $padding-bottom: $inHeight + $inGap;
+
+  &[data-hasbar=true]{
+    padding-bottom: $padding-bottom;
+  }
+  &[data-hasbar=false]{
+    padding-bottom: 0;
+  }
+
+  >.footer{
+    position: fixed;
+    height: $inHeight;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:2;
+  }
+}
+/*webkit-sassui-layout-fixed-bar End*/

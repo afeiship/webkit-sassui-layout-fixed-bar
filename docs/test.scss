@@ -1,0 +1,12 @@
+@import "../dist/webkit-sassui-layout-fixed-bar.scss";
+*{margin:0;padding:0;-webkit-margin-before:0;-webkit-margin-after:0;}
+.test-webkit-sassui-layout-fixed-bar{
+
+  >.footer{
+    background: #eee;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  @include webkit-sassui-layout-fixed-bar();
+}
