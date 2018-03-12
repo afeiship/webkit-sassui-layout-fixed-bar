@@ -1,8 +1,8 @@
-# webkit-sassui-layout-fixed-bar
-> Fixed footer bar for sassui
+# webkit-sassui-layout-fixed-footer
+> Fixed footer footer for sassui
 
 ## usage:
-+ https://afeiship.github.io/webkit-sassui-layout-fixed-bar/
++ https://afeiship.github.io/webkit-sassui-layout-fixed-footer/
 
 ## resources:
 + https://github.com/afeiship/generator-webkit-sassui

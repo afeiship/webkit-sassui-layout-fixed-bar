@@ -1,8 +1,8 @@
 {
-  "name": "webkit-sassui-layout-fixed-bar",
+  "name": "webkit-sassui-layout-fixed-footer",
   "version": "0.0.0",
-  "description": "Fixed footer bar for sassui",
-  "homepage": "https://github.com/afeiship/webkit-sassui-layout-fixed-bar",
+  "description": "Fixed footer footer for sassui",
+  "homepage": "https://github.com/afeiship/webkit-sassui-layout-fixed-footer",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -10,7 +10,7 @@
   "scripts": {
     "build":"gulp"
   },
-  "main":"dist/webkit-sassui-layout-fixed-bar.scss",
+  "main":"dist/webkit-sassui-layout-fixed-footer.scss",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",

@@ -1,9 +1,9 @@
 {
-  "name": "webkit-sassui-layout-fixed-bar",
-  "description": "Fixed footer bar for sassui",
+  "name": "webkit-sassui-layout-fixed-footer",
+  "description": "Fixed footer footer for sassui",
   "main": [
-    "dist/webkit-sassui-layout-fixed-bar.css",
-    "dist/webkit-sassui-layout-fixed-bar.scss"
+    "dist/webkit-sassui-layout-fixed-footer.css",
+    "dist/webkit-sassui-layout-fixed-footer.scss"
   ],
   "authors": [
     "afei"
@@ -12,7 +12,7 @@
   "keywords": [
     "webkit",
     "cssui",
-    "layout-fixed-bar"
+    "layout-fixed-footer"
   ],
   "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
   "moduleType": [

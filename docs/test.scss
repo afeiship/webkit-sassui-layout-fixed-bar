@@ -1,6 +1,6 @@
-@import "../dist/webkit-sassui-layout-fixed-bar.scss";
+@import "../dist/webkit-sassui-layout-fixed-footer.scss";
 *{margin:0;padding:0;-webkit-margin-before:0;-webkit-margin-after:0;}
-.test-webkit-sassui-layout-fixed-bar{
+.test-webkit-sassui-layout-fixed-footer{
 
   >.footer{
     background: #eee;
@@ -17,5 +17,5 @@
     }
   }
 
-  @include webkit-sassui-layout-fixed-bar();
+  @include webkit-sassui-layout-fixed-footer();
 }
