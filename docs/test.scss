@@ -6,6 +6,15 @@
     background: #eee;
     line-height: 50px;
     text-align: center;
+
+    button{
+      background:#4cd964;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      margin-left: 20px;
+      padding: 10px 20px;
+    }
   }
 
   @include webkit-sassui-layout-fixed-bar();
