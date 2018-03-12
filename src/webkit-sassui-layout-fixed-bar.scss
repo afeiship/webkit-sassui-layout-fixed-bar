@@ -7,6 +7,9 @@
   }
   &[data-hasbar=false]{
     padding-bottom: 0;
+    >.footer{
+      display: none;
+    }
   }
 
   >.footer{
