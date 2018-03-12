@@ -12,7 +12,7 @@
 <body>
 
 
-  <div class="wraper test-webkit-sassui-layout-fixed-bar" data-hasbar=true>
+  <div class="wrapper test-webkit-sassui-layout-fixed-bar" data-hasbar=true>
     <div class="div" style="height:200px; background:salmon;"></div>
     <div class="div" style="height:200px; background:royalblue;"></div>
     <div class="div" style="height:200px; background:saddlebrown;"></div>
@@ -23,8 +23,19 @@
     <div class="div" style="height:200px; background:skyblue;"></div>
     <div class="div" style="height:200px; background:salmon;"></div>
 
-    <div class="footer">My footerbar</div>
+    <div class="footer">
+      <span>My footerbar</span>
+      <button id='btn'>Close ME</button>
+    </div>
   </div>
+
+  <script>
+    var btn = document.querySelector('#btn');
+    var wrapper = document.querySelector('.wrapper');
+    btn.onclick = function(){
+      wrapper.setAttribute('data-hasbar', false);
+    }
+  </script>
 
 </body>
 

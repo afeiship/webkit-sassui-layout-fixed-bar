@@ -21,6 +21,10 @@
   padding-bottom: 0;
 }
 
+.test-webkit-sassui-layout-fixed-bar[data-hasbar=false] > .footer {
+  display: none;
+}
+
 .test-webkit-sassui-layout-fixed-bar > .footer {
   position: fixed;
   height: 50px;
