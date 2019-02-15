@@ -2,9 +2,11 @@
 @mixin webkit-sassui-layout-fixed-footer($inHeight: 50px, $inGap: 10px){
   $padding-bottom: $inHeight + $inGap;
 
+  &.hasbar-true,
   &[data-hasbar=true]{
     padding-bottom: $padding-bottom;
   }
+  &.hasbar-false,
   &[data-hasbar=false]{
     padding-bottom: 0;
     >.footer{
