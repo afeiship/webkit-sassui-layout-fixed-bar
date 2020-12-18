@@ -1,0 +1,26 @@
+/*wsui-layout-fixed-footer Start*/
+@mixin wsui-layout-fixed-footer($in-height: 50px, $in-gap: 10px) {
+  $padding-bottom: $in-height + $in-gap;
+
+  &.hasbar-true,
+  &[data-hasbar="true"] {
+    padding-bottom: $padding-bottom;
+  }
+  &.hasbar-false,
+  &[data-hasbar="false"] {
+    padding-bottom: 0;
+    > .footer {
+      display: none;
+    }
+  }
+
+  > .footer {
+    position: fixed;
+    height: $in-height;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+}
+/*wsui-layout-fixed-footer End*/

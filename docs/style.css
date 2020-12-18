@@ -1,0 +1,50 @@
+/*!
+ * name: @jswork/wsui-layout-fixed-footer
+ * description: Fixed footer footer for wsui.
+ * homepage: https://github.com/afeiship/wsui-layout-fixed-footer
+ * version: 1.0.0
+ * date: 2020-12-18 22:10:59
+ * license: MIT
+ */
+/*wsui-layout-fixed-footer Start*/
+/*wsui-layout-fixed-footer End*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.test-wsui-layout-fixed-footer > .footer {
+  background: #eee;
+  line-height: 50px;
+  text-align: center;
+}
+
+.test-wsui-layout-fixed-footer > .footer button {
+  background: #4cd964;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+
+.test-wsui-layout-fixed-footer.hasbar-true, .test-wsui-layout-fixed-footer[data-hasbar="true"] {
+  padding-bottom: 60px;
+}
+
+.test-wsui-layout-fixed-footer.hasbar-false, .test-wsui-layout-fixed-footer[data-hasbar="false"] {
+  padding-bottom: 0;
+}
+
+.test-wsui-layout-fixed-footer.hasbar-false > .footer, .test-wsui-layout-fixed-footer[data-hasbar="false"] > .footer {
+  display: none;
+}
+
+.test-wsui-layout-fixed-footer > .footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
